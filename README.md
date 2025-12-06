@@ -156,7 +156,7 @@ Top piracy-driving themes
 Keyword-level download correlations
 
 ** Dataset OverView Dashboard
-![DATASET oVERVIEW](images/Screenshot 2025-11-29 222252.png)
+![DATASET OVERVIEW](images/Screenshot 2025-11-29 222252.png)
 5.2 Piracy Trend Insights
 ![Piracy Line Chart ](images/Screenshot 2025-11-30 210945.png)
 
