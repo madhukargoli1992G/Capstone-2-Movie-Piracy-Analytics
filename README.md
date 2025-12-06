@@ -44,7 +44,7 @@ capstone2-movie-piracy-analytics/
 ├── scripts/                      # Python ETL, NLP, preprocessing code
 ├── .gitignore
 └── README.md
-
+```
 3. How to Use This Repository
 
 Clone the project
