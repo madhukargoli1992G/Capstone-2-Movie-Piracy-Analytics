@@ -177,7 +177,7 @@ Recovery in 2021–2023
 
 5.3 Genre Insights
 
-![Genre Insights](Images/Screenshot%202025-11-30%20004335-Copy.png)
+![Genre Insights](Images/Screenshot%202025-11-30%20004335%-%Copy%.png)
 
 Analyzed:
 
