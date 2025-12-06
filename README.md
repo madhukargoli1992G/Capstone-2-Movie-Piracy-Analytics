@@ -209,7 +209,8 @@ Budget vs Downloads scatter
 
 ROI patterns
 
-![ROI](Images/Screenshot%202025-11-30%20004335-%20Copy.png)
+![ROI](Images/Screenshot%202025-11-30%20004335%20-%20Copy.png)
+
 
 ![ROI](Images/Screenshot%202025-12-01%20220519.png)
 
