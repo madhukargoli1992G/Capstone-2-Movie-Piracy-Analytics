@@ -142,7 +142,8 @@ Provides inputs for the NLP Word Cloud and the Top Keyword Frequency visual.
 
 ** Power BI Data Model Diagram **
 
-![Power BI Data Model](Images/Screenshot%202025-11-29%20221157.png)
+![Power BI Data Model](Images/Screenshot%202025-11-29%20221157%20-%20Copy.png)
+
 
 5. Analytical Components
 
