@@ -141,6 +141,7 @@ Total Downloads Keyword
 Provides inputs for the NLP Word Cloud and the Top Keyword Frequency visual.
 
 ** Power BI Data Model Diagram **
+
 ![Power BI Data Model](Images/Screenshot%202025-11-29%20221157.png)
 
 5. Analytical Components
@@ -149,7 +150,7 @@ Provides inputs for the NLP Word Cloud and the Top Keyword Frequency visual.
 
 Extracted and cleaned storyline keywords to compute:
 
-![NLP Piracy Keywords ](images/Screenshot 2025-12-01 215934.png)
+![NLP Piracy Keywords](Images/Screenshot%2025-12-01%215934.png)
 
 Top piracy-driving themes
 
