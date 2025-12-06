@@ -77,25 +77,89 @@ sql
 Copy code
 presentation/Capstone-II Project Final Draft.pptx
 
+Power BI Data Model
+
+The analytical backbone of this project is a relational data model built in Power BI, designed to unify metadata, ratings, piracy activity, storyline keywords, and extended film attributes into a single analytical framework.
+
+This model ensures clean relationships across datasets, enabling accurate DAX calculations, cross-filtering, and integrated insights across the dashboards.
+
+** Key Components of the Data Model **
+
+1. movies_metadata (Central Fact Table)
+
+Contains core attributes for each movie:
+
+id (primary identifier)
+
+MovieKey
+
+budget, revenue, profit
+
+popularity, imdb_id, homepage
+
+genres, Genre_Category, Genre_Category_Family
+
+release_date, original_language
+
+Supports relationships to ratings, piracy, keywords, and credits.
+
+2. movies_dataset (Piracy & Extended Attributes)
+
+Includes:
+
+downloads (Total piracy downloads)
+
+storyline, run_time, posted_date, release_date
+
+industry, appropriate_for, writer, director
+
+Linked using MovieKey.
+
+3. ratings_small
+
+Provides:
+
+movieId, rating, timestamp
+
+Enables creation of average IMDB-style rating metrics.
+
+4. credits
+
+Includes cast/crew information:
+
+cast, crew, id
+
+Supports segmentation of piracy by genre family and rating category.
+
+5. keywords_explored (NLP Model Output)
+
+Stores keyword occurrences extracted from storyline text:
+
+KEYWORD
+
+Total Downloads Keyword
+Provides inputs for the NLP Word Cloud and the Top Keyword Frequency visual.
+
+** Power BI Data Model Diagram **
+![Power BI Data Model](images/Screenshot%202025-11-29%20221157.png)
+
 5. Analytical Components
 
 5.1 NLP Keyword Analysis
 
 Extracted and cleaned storyline keywords to compute:
 
+![NLP Piracy Keywords ](images/Screenshot 2025-12-01 215934.png)
+
 Top piracy-driving themes
 
 Keyword-level download correlations
 
-Insert screenshot:
-![<img width="1939" height="947" alt="Screenshot 2025-11-30 003519" src="https://github.com/user-attachments/assets/971b6004-6a68-4fa4-96b9-5c2149f97e33" />]
-
-scss
-Copy code
-
-
+** Dataset OverView Dashboard
+![DATASET oVERVIEW](images/Screenshot 2025-11-29 222252.png)
 5.2 Piracy Trend Insights
-<img width="1941" height="1091" alt="Screenshot 2025-11-30 210945" src="https://github.com/user-attachments/assets/608feb31-b524-406a-8d69-3fdb2d375a22" />
+![Piracy Line Chart ](images/Screenshot 2025-11-30 210945.png)
+
 Line chart revealing:
 
 Major piracy spikes (2013–2017)
@@ -104,60 +168,44 @@ Drops during the rise of streaming platforms
 
 Recovery in 2021–2023
 
-Insert screenshot:
-
-scss
-Copy code
-
-
 5.3 Genre Insights
-<img width="1941" height="1088" alt="Screenshot 2025-11-30 213150" src="https://github.com/user-attachments/assets/aa952fd4-6cdb-42eb-bfc9-5f21fa9bee39" />
+![Genre Insights](images/Screenshot 2025-11-30 004335 - Copy.png)
+
 Analyzed:
 
 Average Budget per Genre
-<img width="1941" height="1088" alt="Screenshot 2025-11-30 213150" src="https://github.com/user-attachments/assets/c70e210d-2325-418b-bf73-3a61f823b4b5" />
+![AVG BUDGET PER GENRE](images/Screenshot 2025-11-30 213150.png)
 
 User Rating Patterns
-<img width="1932" height="1096" alt="Screenshot 2025-11-29 222432" src="https://github.com/user-attachments/assets/02b491a0-c198-40d2-b491-6dace181441d" />
+![USER RATINGS](images/Screenshot 2025-11-29 223836.png)
 
-Genre frequency
-<img width="1941" height="1091" alt="Screenshot 2025-11-30 210945" src="https://github.com/user-attachments/assets/608feb31-b524-406a-8d69-3fdb2d375a22" />
-Download behavior by category
-<img width="1940" height="1092" alt="Screenshot 2025-11-30 002456" src="https://github.com/user-attachments/assets/43eac232-289b-40cf-ba25-7e7a0ae44f44" />
+Genre Vs Piracy
+![Ratings vs Piracy by Genre](images/Screenshot 2025-11-29 232731.png)
 
 5.4 Revenue & Budget Analysis
-<img width="1940" height="1090" alt="Screenshot 2025-11-30 004335 - Copy" src="https://github.com/user-attachments/assets/2ea1937a-e73a-4280-9783-4be223b56e70" />
 
 Includes:
 
 Top 20 Highest-Grossing Films
-<img width="1947" height="1091" alt="Screenshot 2025-11-30 230424" src="https://github.com/user-attachments/assets/320bca1c-19fd-4d77-8f83-f66eca81378b" />
+![TOP 20 Highest Grossing Movies](images/Screenshot 2025-11-30 230424 - Copy.png)
 
 Top 20 Most Pirated Movies
-<img width="1941" height="885" alt="Screenshot 2025-11-30 001126" src="https://github.com/user-attachments/assets/5c2b5a55-2796-449d-869d-288e4316a771" />
+![Top 20 Most Pirated Movies](images/Screenshot 2025-11-30 001126.png)
 
 Budget vs Downloads scatter
-<img width="1944" height="1085" alt="Screenshot 2025-11-30 211606 - Copy" src="https://github.com/user-attachments/assets/c24eea93-be46-4949-bab5-fd182e27e58d" />
+![Budget vs Downloads](images/Screenshot 2025-11-30 211606.png)
 
 ROI patterns
-<img width="1941" height="1088" alt="Screenshot 2025-11-30 213150" src="https://github.com/user-attachments/assets/b7c3ab79-98f0-4fd4-b895-0a1931476628" />
-
-<img width="1940" height="1090" alt="Screenshot 2025-11-30 004335 - Copy" src="https://github.com/user-attachments/assets/d6f4b85b-5535-4cbd-8437-2730ea98f827" />
-
-
+![ROI](images/Screenshot 2025-11-30 004335 - Copy.png)
+![ROI](images/Screenshot 2025-12-01 220519.png)
 
 5.5 Storyline Length vs Downloads
-
+![Storyline Length vs Downloads](images/Screenshot 2025-12-01 221156.png)
 Studied how storyline complexity impacts piracy.
 
 Key finding:
 
 Short, high-concept plot summaries show higher piracy engagement.
-
-<img width="1940" height="1090" alt="Screenshot 2025-11-30 002957 - Copy" src="https://github.com/user-attachments/assets/24b18c9b-a761-4650-a1d8-1f620eee4359" />
-
-
-<img width="1943" height="1091" alt="Screenshot 2025-12-01 221156" src="https://github.com/user-attachments/assets/873fd444-84d1-4549-b09d-073349f5fbce" />
 
 6. Core Findings
 
