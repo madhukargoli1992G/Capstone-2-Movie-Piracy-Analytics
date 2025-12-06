@@ -77,7 +77,7 @@ sql
 Copy code
 presentation/Capstone-II Project Final Draft.pptx
 
-Power BI Data Model
+** Power BI Data Model **
 
 The analytical backbone of this project is a relational data model built in Power BI, designed to unify metadata, ratings, piracy activity, storyline keywords, and extended film attributes into a single analytical framework.
 
@@ -142,8 +142,7 @@ Provides inputs for the NLP Word Cloud and the Top Keyword Frequency visual.
 
 ** Power BI Data Model Diagram **
 
-![Power BI Data Model](Images/Screenshot%202025-11-29%20221157%20-%20Copy.png)
-
+![Power BI Data Model](Images/Screenshot%202025-11-29%20221157.png)
 
 5. Analytical Components
 
