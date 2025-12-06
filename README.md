@@ -177,7 +177,7 @@ Recovery in 2021–2023
 
 5.3 Genre Insights
 
-![Genre Insights](Images/Screenshot%202025-11-30%20004335%-%Copy%.png)
+![Genre Insights](images/Screenshot%202025-11-30%20004335%20-%20Copy.png)
 
 Analyzed:
 
@@ -196,7 +196,7 @@ Includes:
 
 Top 20 Highest-Grossing Films
 
-![TOP 20 Highest Grossing Movies](Images/Screenshot%202025-11-30%20230424-Copy.png)
+![TOP 20 Highest Grossing Movies](Images/Screenshot%202025-11-30%20230424-%220Copy.png)
 
 Top 20 Most Pirated Movies
 
@@ -208,7 +208,7 @@ Budget vs Downloads scatter
 
 ROI patterns
 
-![ROI](Images/Screenshot%202025-11-30%20004335-Copy.png)
+![ROI](Images/Screenshot%202025-11-30%20004335-%20Copy.png)
 
 ![ROI](Images/Screenshot%202025-12-01%20220519.png)
 
