@@ -45,45 +45,51 @@ capstone2-movie-piracy-analytics/
 ├── .gitignore
 └── README.md
 ```
-3. How to Use This Repository
+## ** 3. How to Use This Repository **
 
 Clone the project
+
 bash
 Copy code
+
 git clone https://github.com/madhukargoli1992G/capstone2-movie-piracy-analytics.git
+
 cd capstone2-movie-piracy-analytics
 Install Python dependencies
+
 bash
 Copy code
+
 pip install -r requirements.txt
 Open Power BI dashboards
 All .pbix files are located in:
 
 Copy code
-powerbi/
+
+PowerBI/Capstone_2_Dashboards.pbix
 Open them directly in Power BI Desktop.
 
 4. Key Deliverables
+   
 ✔ Final Report (APA Format)
-sql
-Copy code
+
 docs/Capstone-II Final Project Report.docx
 ✔ Power BI Dashboards
-bash
-Copy code
+
 powerbi/Capstone_2_Dashboards.pbix
+
 ✔ Presentation Deck
-sql
-Copy code
+
 presentation/Capstone-II Project Final Draft.pptx
 
-** Power BI Data Model **
+## ** Power BI Data Model **
+
 ![Power BI Data Model](Images/Screenshot%202025-11-29%20221157.png)
 The analytical backbone of this project is a relational data model built in Power BI, designed to unify metadata, ratings, piracy activity, storyline keywords, and extended film attributes into a single analytical framework.
 
 This model ensures clean relationships across datasets, enabling accurate DAX calculations, cross-filtering, and integrated insights across the dashboards.
 
-** Key Components of the Data Model **
+## ** Key Components of the Data Model **
 
 1. movies_metadata (Central Fact Table)
 
@@ -138,6 +144,7 @@ Stores keyword occurrences extracted from storyline text:
 KEYWORD
 
 Total Downloads Keyword
+
 Provides inputs for the NLP Word Cloud and the Top Keyword Frequency visual.
 
 5. Analytical Components
@@ -152,7 +159,7 @@ Top piracy-driving themes
 
 Keyword-level download correlations
 
-** Dataset OverView Dashboard
+## ** Dataset OverView Dashboard **
 
 ![DATASET OVERVIEW](Images/Screenshot%202025-11-29%20222252.png)
 
