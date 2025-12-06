@@ -78,7 +78,7 @@ Copy code
 presentation/Capstone-II Project Final Draft.pptx
 
 ** Power BI Data Model **
-
+![Power BI Data Model](Images/Screenshot%202025-11-29%20221157.png)
 The analytical backbone of this project is a relational data model built in Power BI, designed to unify metadata, ratings, piracy activity, storyline keywords, and extended film attributes into a single analytical framework.
 
 This model ensures clean relationships across datasets, enabling accurate DAX calculations, cross-filtering, and integrated insights across the dashboards.
@@ -140,27 +140,25 @@ KEYWORD
 Total Downloads Keyword
 Provides inputs for the NLP Word Cloud and the Top Keyword Frequency visual.
 
-** Power BI Data Model Diagram **
-
-![Power BI Data Model](Images/Screenshot%202025-11-29%20221157.png)
-![Power BI Data Model](Images/Screenshot%202025-11-29%20221157.png)
-
 5. Analytical Components
 
 5.1 NLP Keyword Analysis
 
 Extracted and cleaned storyline keywords to compute:
 
-![NLP Piracy Keywords](Images/Screenshot%2025-12-01%215934.png)
+![NLP Piracy Keywords](Images/Screenshot%202025-12-01%20215934.png)
 
 Top piracy-driving themes
 
 Keyword-level download correlations
 
 ** Dataset OverView Dashboard
-![DATASET OVERVIEW](images/Screenshot 2025-11-29 222252.png)
+
+![DATASET OVERVIEW](Images/Screenshot 2025-11-29 222252.png)
+
 5.2 Piracy Trend Insights
-![Piracy Line Chart ](images/Screenshot 2025-11-30 210945.png)
+
+![Piracy Line Chart ](Images/Screenshot 2025-11-30 210945.png)
 
 Line chart revealing:
 
@@ -171,7 +169,8 @@ Drops during the rise of streaming platforms
 Recovery in 2021–2023
 
 5.3 Genre Insights
-![Genre Insights](images/Screenshot 2025-11-30 004335 - Copy.png)
+
+![Genre Insights](Images/Screenshot 2025-11-30 004335 - Copy.png)
 
 Analyzed:
 
