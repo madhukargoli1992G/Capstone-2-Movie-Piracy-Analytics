@@ -154,11 +154,11 @@ Keyword-level download correlations
 
 ** Dataset OverView Dashboard
 
-![DATASET OVERVIEW](Images/Screenshot 2025-11-29 222252.png)
+![DATASET OVERVIEW](Images/Screenshot%202025-11-29%20222252.png)
 
 5.2 Piracy Trend Insights
 
-![Piracy Line Chart ](Images/Screenshot 2025-11-30 210945.png)
+![Piracy Line Chart ](Images/Screenshot%202025-11-30%20210945.png)
 
 Line chart revealing:
 
@@ -170,38 +170,45 @@ Recovery in 2021–2023
 
 5.3 Genre Insights
 
-![Genre Insights](Images/Screenshot 2025-11-30 004335 - Copy.png)
+![Genre Insights](Images/Screenshot%202025-11-30%20004335-Copy.png)
 
 Analyzed:
 
 Average Budget per Genre
-![AVG BUDGET PER GENRE](images/Screenshot 2025-11-30 213150.png)
+![AVG BUDGET PER GENRE](Images/Screenshot%202025-11-30%20213150.png)
 
 User Rating Patterns
-![USER RATINGS](images/Screenshot 2025-11-29 223836.png)
+![USER RATINGS](Images/Screenshot%202025-11-29%20223836.png)
 
 Genre Vs Piracy
-![Ratings vs Piracy by Genre](images/Screenshot 2025-11-29 232731.png)
+![Ratings vs Piracy by Genre](Images/Screenshot%202025-11-29%20232731.png)
 
 5.4 Revenue & Budget Analysis
 
 Includes:
 
 Top 20 Highest-Grossing Films
-![TOP 20 Highest Grossing Movies](images/Screenshot 2025-11-30 230424 - Copy.png)
+
+![TOP 20 Highest Grossing Movies](Images/Screenshot%202025-11-30%20230424-Copy.png)
 
 Top 20 Most Pirated Movies
-![Top 20 Most Pirated Movies](images/Screenshot 2025-11-30 001126.png)
+
+![Top 20 Most Pirated Movies](Images/Screenshot%202025-11-30%20001126.png)
 
 Budget vs Downloads scatter
-![Budget vs Downloads](images/Screenshot 2025-11-30 211606.png)
+
+![Budget vs Downloads](images/Screenshot%202025-11-30%20211606.png)
 
 ROI patterns
-![ROI](images/Screenshot 2025-11-30 004335 - Copy.png)
-![ROI](images/Screenshot 2025-12-01 220519.png)
+
+![ROI](Images/Screenshot%202025-11-30%20004335-Copy.png)
+
+![ROI](Images/Screenshot%202025-12-01%20220519.png)
 
 5.5 Storyline Length vs Downloads
-![Storyline Length vs Downloads](images/Screenshot 2025-12-01 221156.png)
+
+![Storyline Length vs Downloads](Images/Screenshot%202025-12-01%20221156.png)
+
 Studied how storyline complexity impacts piracy.
 
 Key finding:
