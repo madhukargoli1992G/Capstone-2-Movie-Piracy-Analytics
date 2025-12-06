@@ -196,7 +196,7 @@ Includes:
 
 Top 20 Highest-Grossing Films
 
-![TOP 20 Highest Grossing Movies](Images/Screenshot%202025-11-30%20230424-%220Copy.png)
+![TOP 20 Highest Grossing Movies](Images/Screenshot%202025-11-30%20230424-%20Copy.png)
 
 Top 20 Most Pirated Movies
 
@@ -204,7 +204,7 @@ Top 20 Most Pirated Movies
 
 Budget vs Downloads scatter
 
-![Budget vs Downloads](images/Screenshot%202025-11-30%20211606.png)
+![Budget vs Downloads](Images/Screenshot%202025-11-30%20211606.png)
 
 ROI patterns
 
