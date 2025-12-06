@@ -88,7 +88,7 @@ Top piracy-driving themes
 Keyword-level download correlations
 
 Insert screenshot:
-<img width="1939" height="947" alt="Screenshot 2025-11-30 003519" src="https://github.com/user-attachments/assets/971b6004-6a68-4fa4-96b9-5c2149f97e33" />
+![<img width="1939" height="947" alt="Screenshot 2025-11-30 003519" src="https://github.com/user-attachments/assets/971b6004-6a68-4fa4-96b9-5c2149f97e33" />]
 
 scss
 Copy code
